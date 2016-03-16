@@ -71,6 +71,7 @@ public class HelloFragment extends Fragment {
                 try {
                     responseJson.put("first", "hello");
                     responseJson.put("last", "activity");
+                    responseJson.put("result", "I have been promoted as a git submodule!");
                     argJsonClickListener.OnClick(v, responseJson);
                 } catch (JSONException e) {
                     e.printStackTrace();
